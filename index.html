@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de captura de leads</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #f2f2f2;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      padding: 40px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 28px;
+      color: #333;
+    }
+
+    img {
+      width: 300px;
+      height: auto;
+      margin: 20px 0;
+    }
+
+    p {
+      font-size: 16px;
+      color: #555;
+      margin: 10px 0;
+    }
+
+    .cta-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ff6600;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 18px;
+      transition: background-color 0.3s;
+    }
+
+    .cta-button:hover {
+      background-color: #ff8800;
+    }
+
+    .testimonial {
+      margin: 40px 0;
+      text-align: center;
+      
+      
+    }
+
+    .testimonial img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    .rescue-zone {
+      background-color: #f2f2f2;
+      padding: 40px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>¡Cursos de violin!</h1>
+  </header>
+  
+  <main>
+    <img src="violin2.jpg" alt="Imagen del producto">
+
+    <h2>¡Obtén resultados sorprendentes en poco tiempo!</h2>
+    <p>Nuestros cursos de violin te brinda una solución única que te permitirá disfrutar de los siguientes beneficios:</p>
+    <ul>
+      <li>Superar el miedo escénico.</li>
+      <li>Mejorar su postura.</li>
+      <li>Desarrollar su oído musical.</li>
+    </ul>
+
+    <p>No pierdas esta oportunidad. Actúa ahora y aprovecha todos los beneficios que te ofrecemos.</p>
+    <a href="comprar.html" class="cta-button">¡Comprar ahora!</a>
+
+    <div class="testimonial">
+      <img src="cliente%202.jpg" alt="Foto del cliente 1">
+      <p>"¡Increíble producto! Me ha ayudado a mejorar mi vida de una manera asombrosa. ¡Altamente recomendado!"</p>
+      <p><strong>- Cliente Satisfecho 1</strong></p>
+    </div>
+    <div class="testimonial">
+      <img src="cliente1.jpg" alt="Foto del cliente 2">
+      <p>"No puedo creer los resultados que he obtenido con este servicio. Realmente ha superado mis expectativas. ¡Gracias!"</p>
+      <p><strong>- Cliente Satisfecho 2</strong></p>
+    </div>
+
+    <section class="rescue-zone">
+      <h2>¿Quieres recibir más información?</h2>
+      <p>Regístrate ahora y obtén detalles exclusivos sobre nuestro curso de violin</p>
+      <form action="procesar_formulario.php" method="POST">
+        <input type="email" name="correo" placeholder="Ingresa tu correo electrónico" required>
+        <input type="submit" value="Suscribirse" class="cta-button">
+      </form>
+    </section>
+  </main>
+  
+  <footer>
+    <p>© 2023 Mi Empresa. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
